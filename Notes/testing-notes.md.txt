@@ -1,0 +1,13 @@
+TESTING RESULTS:
+
+LAN → DMZ (allowed)
+curl http://192.168.20.100 → "Hello from DMZ" (success)
+
+DMZ → LAN (blocked)
+ping 192.168.10.100 → 100% packet loss
+
+WAN → DMZ (port forward test)
+curl http://10.0.2.15:8080 → success
+nmap -p 8080 10.0.2.15 → port open
+
+Firewall logs confirm DMZ→LAN traffic blocked (screenshot #14)

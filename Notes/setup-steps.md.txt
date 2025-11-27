@@ -1,0 +1,10 @@
+- Installed pfSense in VirtualBox (2 NICs for LAN/DMZ + 1 for WAN)
+- Set WAN: DHCP (10.0.2.15)
+- Set LAN: 192.168.10.1/24
+- Set DMZ: 192.168.20.1/24
+- Enabled DHCP on LAN + DMZ
+- Configured firewall rules (allowed LAN, blocked DMZ→LAN)
+- Created port forward WAN 8080 → DMZ Web Server (80)
+- Installed Ubuntu DMZ server, ran python3 http server
+- Performed testing using ping, curl, nmap
+- Exported pfSense backup config
