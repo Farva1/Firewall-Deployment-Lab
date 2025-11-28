@@ -1,7 +1,6 @@
 # Firewall Deployment Lab (pfSense + Ubuntu LAN/DMZ)
 
 **Author:** Umme Farva  
-**Date:** 2025-11-24  
 
 ## Overview
 This project demonstrates a complete firewall deployment using **pfSense** inside a virtualized environment.  
@@ -170,3 +169,4 @@ Copy code
 ## Author
 **Umme Farva**  
 Cybersecurity Analyst  
+
